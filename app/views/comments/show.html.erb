@@ -1,0 +1,7 @@
+
+<h2><%= @comment.title %> <a href="/comments/<%= @comment.id %>/edit">(edit)</a></h2>
+<h3>By: <%= @comment.post.name %></h3>
+
+Album: <%= @comment.album %></br>
+
+<audio controls src="<%= @comment.preview_url %>"></audio>

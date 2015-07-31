@@ -1,0 +1,14 @@
+<h2><%= @post.name %> <a href="/posts/<%= @post.id %>/edit">(edit)</a></h2>
+<h4><%= @post.nationality %></h4>
+
+<img class='post-photo' src="<%= @post.photo_url %>">
+
+<h3>Songs <%= link_to "(+)", new_post_song_path(@post) %></h3>
+<ul>
+  <% @post.songs.each do |song| %>
+    <li>
+      <%= link_to "#{song.title} (#{song.album})", post_song_path(@post, song) %>
+    </li>
+
+  <% end %>
+</ul>

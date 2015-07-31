@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Scribs</title>
+  <title>Scribblr</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <h1>Scribblr</h1>
+  <nav>
+    <a href="/comments">Comments</a>
+    <a href="/posts">Posts</a>
+  </nav>
 
 <%= yield %>
 
