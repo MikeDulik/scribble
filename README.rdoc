@@ -1,3 +1,12 @@
+Should have spent more time on this assignment during the week.  Used Tun.r as
+skeleton, but am unable to remove certain attributes within the schema without
+breaking all functionality.  Still a very constructive experience tracing stack
+errors and putting together the site
+
+
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
